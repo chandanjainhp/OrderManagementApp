@@ -12,7 +12,8 @@ export default function Menu() {
     useEffect(() => {
         async function fetchMenu() {
             try {
-                const response = await axios.get('http://localhost:5000/api/menu');
+                const baseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+                const response = await axios.get(`${baseUrl}/api/menu`);
                 setItems(response.data);
             } catch (error) {
                 console.error('Failed to fetch menu:', error);

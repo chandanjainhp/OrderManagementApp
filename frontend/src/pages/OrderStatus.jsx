@@ -44,7 +44,8 @@ export default function OrderStatus() {
 
         const fetchStatus = async () => {
             try {
-                const response = await axios.get(`http://localhost:5000/api/orders/${id}`);
+                const baseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000';
+                const response = await axios.get(`${baseUrl}/api/orders/${id}`);
                 setOrder(response.data);
                 updateTimer(response.data);
                 setError('');
