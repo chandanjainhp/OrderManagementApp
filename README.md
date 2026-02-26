@@ -2,7 +2,7 @@
 
 A full-stack, containerized application designed to handle restaurant or e-commerce orders. It features a modern React frontend for browsing a menu and placing orders, paired with a robust Node.js and Express backend backed by a PostgreSQL database for order processing and tracking.
 
-![App Demo](/path-to-your-image.png) <!-- Update later to actual screenshot -->
+![App Demo](docs/screenshots/menu-page.png)
 
 ## Features
 
