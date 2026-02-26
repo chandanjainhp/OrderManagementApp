@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+backend/dist/
+
+# Environment files
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Drizzle generated (optional – keep migrations but ignore snapshots if preferred)
+# drizzle/meta/
+
+# Coverage
+coverage/
