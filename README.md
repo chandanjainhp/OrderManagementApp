@@ -130,6 +130,4 @@ npm test
 
 ## Deployment
 
-The application is structured to allow container-based deployments to services like Render, Railway, AWS ECS, or DigitalOcean App Platform.
 
-Alternatively, you could deploy the frontend separately to Vercel or Netlify, and the backend to a standard Node.js hosting service (ensure you update the API base URL in the frontend code before building!).
